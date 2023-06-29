@@ -10,9 +10,9 @@ const Register = () => {
             <input type="text" name="registration_form__user-name" id="registration_form__user-name"/>
             
         </div>
-        <idv>
+        <div>
           <p>New changes!!!!!!!!!!!!!!!!!!!!</p>
-        </idv>
+        </div>
     </div>
   );
 }
