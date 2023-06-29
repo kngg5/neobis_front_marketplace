@@ -10,6 +10,7 @@ const Register = () => {
             <input type="text" name="registration_form__user-name" id="registration_form__user-name"/>
             
         </div>
+        <p>gggg</p>
     </div>
   );
 }
