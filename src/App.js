@@ -5,8 +5,8 @@ import logout from './components/huge-icon-logout.svg';
 import trash from './components/huge-icon-trash.svg';
 
 function App() {
-  const[modalActive, setModalActive] = useState(true);
-  const[modalActive2, setModalActive2] = useState(true);
+  const[modalActive, setModalActive] = useState(false);
+  const[modalActive2, setModalActive2] = useState(false);
 
   return (
     <div className="App">
