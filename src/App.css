@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.popup_btn {
+    padding: 1rem 2rem;
+    color: black;
+    font-size: 2rem;
+    margin: 5rem 10rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+.popup_btn2 {
+    padding: 1rem 2rem;
+    color: black;
+    font-size: 2rem;
+    margin: 5rem 20rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #fff;   
+}
