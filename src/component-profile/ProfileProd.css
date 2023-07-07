@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile_screen__products {
+    display: flex;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+/* Navbar*/
+.profile_navbar {
+    height: 100vh;
+    padding: 2rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.profile_user {
+    display: inline-flex;
+    align-items: center;
+    gap: .54rem;
+}
+
+.profile_logo {
+    background-color: #5D5FEF;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 6px;
+}
+.user_logo {
+    background-color: #5D5FEF;
+    border-radius: 50%;
+    width: 60px;
+    padding: 8px;
+}
+.profile_user__info {
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    justify-content: center;
+}
+.profile_user__name {
+    color:  #494949;
+    font-family: Gotham Pro, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.profile_user__user-name {
+    color:  #494949;
+    text-align: center;
+    font-family: Gotham Pro, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu_main__items {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.menu_main__items-fav {
+    color: #494949;
+    font-family: Gotham Pro, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  
+}
+.menu_main__items-products {
+    color: #494949;
+    font-family: Gotham Pro, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+.menu_container{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.menu_item__log-out {
+    color: #494949;
+    font-family: Gotham Pro, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu_items {
+    border-radius: 14px;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menu_items:hover {
+    background-color: #C0C0C033;
+}
+
+/*Main window*/
+
+.profile_main {
+    background-color: #C0C0C0;
+    width: 80%;
+    height: 100vh;
+    padding: 2rem 7rem;
+}
+.main_window__header {
+    display: flex;
+    align-items: center;
+    gap: .50rem;
+}
+.main_window__header button{
+    border-radius: 30px;
+    width: 50px;
+    border: none;
+}
