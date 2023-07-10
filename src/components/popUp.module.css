@@ -59,14 +59,14 @@
     
 }
 
-.popup__btn-active {
+.popup__btn_active {
     display: flex;
     width: 280px;
     height: 44px;
     padding: 10px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    
     border-radius: 16px;
     background: var(--blue, #5D5FEF);
     border: none;
@@ -79,7 +79,7 @@
     line-height: normal;
 }
 
-.popup__btn-secondary {
+.popup__btn_secondary {
     display: flex;
     width: 280px;
     height: 44px;

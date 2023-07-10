@@ -3,6 +3,7 @@ import './App.css';
 import PopUp from './components/PopUp';
 import logout from './components/huge-icon-logout.svg';
 import trash from './components/huge-icon-trash.svg';
+import ProfileProducts from './component-profile/ProfileProducts';
 
 function App() {
   const[modalActive, setModalActive] = useState(false);
@@ -15,6 +16,7 @@ function App() {
 
       <button className='popup_btn' onClick={() => setModalActive(true)}>click</button>
       <button className='popup_btn2' onClick={() => setModalActive2(true)}>click2</button>
+      
                 
     </div>
   );
